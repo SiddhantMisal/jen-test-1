@@ -1,5 +1,5 @@
 # select the base image which has got python installed
-FROM python
+FROM python:3.15-rc-slim-trixie
 
 # set the working directory
 WORKDIR /src
